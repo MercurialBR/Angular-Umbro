@@ -1,0 +1,30 @@
+.nav-bar_search {
+  display: flex;
+  align-items: center;
+  border: .8px solid #FFFFFF;
+}
+.nav-bar_search input {
+  width: 100%;
+  height: 2rem;
+  background-color: black;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+.nav-bar_search input::placeholder {
+  color: #FFFFFF;
+  font-weight: 600 ;
+  font-size: 11.5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.nav-bar_search label {
+  padding: .5rem;
+  border: none;
+}
+input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  content: URL(https://uploaddeimagens.com.br/images/004/368/092/original/x.png?1677370826);
+  width: 9px;
+  padding: .4rem;
+  cursor: pointer;
+ }
